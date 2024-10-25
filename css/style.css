@@ -1,0 +1,73 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:sans-serif;
+}
+
+.section{
+	width:100%;
+}
+
+.form{
+	width:600px;
+	background-color:gainsboro;
+	border:solid;
+	border-radius:15px;
+	margin:20px auto;
+	padding:40px;
+}
+
+.img{
+	width:100%;
+	text-align:center;
+}
+
+.avatar{
+	width:60px;
+	height:60px;
+	border-radius: 100%;
+	border:solid;
+}
+
+.name{
+	width: 100%;
+}
+.name label{
+	display: block;
+	font-size: 20px;
+	font-height:40px;
+	text-transform:uppercase;
+	font weight:600px;
+}
+
+
+.name input{
+	width:90%;
+	padding:10px;
+	border-radius: 5px;
+	border:solid;
+}
+.name input:hover{
+	color:ghostwhite;
+	background-color:gray;
+}
+
+.sub{
+	margin:10px 0px;
+}
+.btn{
+	padding: 10px 25px;
+}
+.btn:hover{
+	color:ghostwhite;
+	background-color:green;
+
+}
